@@ -15,6 +15,7 @@ module.exports = {
       black: "#000",
       white: "#fff",
       primaryColor: "#da3654",
+      primaryColor_hover: "#da3654c2",
       secondaryColor: "#000",
 
       gray: {

@@ -4,7 +4,7 @@ import React from "react"
 
 const Header = ({ siteTitle, menuLinks }) => (
   <nav className="bg-white p-2 mt-0 w-full z-10 pin-t ">
-    <div className="container flex  justify-between flex-wrap p-6 items-center">
+    <div className="flex  justify-between flex-wrap p-6 items-center">
       <div class="flex  flex-shrink-0 text-black mr-6">
         <span class="font-semibold text-3xl tracking-tight">
           <h1 style={{ margin: 0 }}>
@@ -43,6 +43,11 @@ const Header = ({ siteTitle, menuLinks }) => (
               {link.name}
             </Link>
           ))}
+        </div>
+        <div>
+          <Link className="btn m-0 px-10" to="/">
+            call Us
+          </Link>
         </div>
       </div>
     </div>

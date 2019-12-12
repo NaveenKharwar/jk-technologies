@@ -14,7 +14,7 @@ module.exports = {
       },
       {
         name: "Services",
-        linl: "/services",
+        link: "/services",
       },
     ],
   },
@@ -51,7 +51,7 @@ module.exports = {
             variants: [`300`, `400`, `500`, `600`, `700`, `800`, `900`],
           },
           {
-            family: `Playfair Display`,
+            family: `Proza Libre`,
             variants: [`300`, `400`, `500`, `600`, `700`, `800`, `900`],
           },
         ],
