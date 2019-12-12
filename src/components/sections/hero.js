@@ -6,9 +6,11 @@ export default class Hero extends Component {
   render() {
     return (
       <header>
-        <div className="flex items-center mb-4">
+        <div className="flex items-center">
           <div className="w-1/2">
-            <h5 className="text-gray-700">Best Internet Provider in Sikkim</h5>
+            <p className="text-gray-700 uppercase font-semibold">
+              Best Internet Provider in Sikkim
+            </p>
             <h1 className="leading-snug font-bold">
               Meet faster, <br />
               more secure web.
@@ -24,8 +26,8 @@ export default class Hero extends Component {
             </Link>
             <p>Get one-to-one consultation in less than 24h.</p>
           </div>
-          <div className="w-1/2">
-            <div style={{ maxWidth: `100%` }}>
+          <div className="w-1/2 flex justify-center">
+            <div style={{ width: `500px` }}>
               <Image />
             </div>
           </div>
