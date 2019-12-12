@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import Logo from "./logo"
-
+import { FaPhone } from "react-icons/fa"
 const Header = ({ siteTitle, menuLinks }) => (
   <nav className="bg-white p-2 mt-0 w-full z-10 pin-t ">
     <div className="flex container  justify-between flex-wrap py-0 items-center">
@@ -46,7 +46,8 @@ const Header = ({ siteTitle, menuLinks }) => (
         </div>
         <div>
           <Link className="btn m-0 px-10" to="/">
-            call Us
+            <span>call Us</span>
+            <FaPhone />
           </Link>
         </div>
       </div>

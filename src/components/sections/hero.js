@@ -2,6 +2,8 @@ import React, { Component } from "react"
 import { Link } from "gatsby"
 import Image from "../image"
 
+import { FaAngleDown } from "react-icons/fa"
+
 export default class Hero extends Component {
   render() {
     return (
@@ -22,7 +24,8 @@ export default class Hero extends Component {
               routers.  
             </p>
             <Link className="btn" to="/services">
-              our services
+              <span>our services</span>
+              <FaAngleDown />
             </Link>
             <p>Get one-to-one consultation in less than 24h.</p>
           </div>

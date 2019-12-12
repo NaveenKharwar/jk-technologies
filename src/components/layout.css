@@ -53,7 +53,14 @@ header {
 
 /* Theme */
 .btn {
-  @apply bg-primaryColor text-white tracking-wide py-3 px-8 inline-block rounded-full my-4 lowercase;
+  @apply bg-primaryColor text-white tracking-wide py-3 px-8 inline-flex items-center rounded-full my-4 lowercase;
 }
 
+.btn span {
+  @apply flex;
+}
+
+.btn svg {
+  @apply ml-4;
+}
 @tailwind utilities;
