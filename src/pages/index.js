@@ -7,11 +7,13 @@ import SEO from "../components/seo"
 
 // Front Page Component
 import Hero from "../components/sections/hero"
+import Services from "../components/sections/services"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Hero />
+    <Services />
     <h1>Hi people</h1>
 
     <h1>This is H1</h1>

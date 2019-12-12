@@ -32,7 +32,7 @@ const Header = ({ siteTitle, menuLinks }) => (
           </svg>
         </button>
       </div>
-      <div class="w-full block lg:flex lg:items-center lg:w-auto">
+      <div class="w-full block:lg lg:flex lg:items-center lg:w-auto hidden">
         <div class="text-sm lg:flex-grow">
           {menuLinks.map(link => (
             <Link
