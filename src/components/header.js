@@ -2,23 +2,23 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import Logo from "./logo"
+
 const Header = ({ siteTitle, menuLinks }) => (
   <nav className="bg-white p-2 mt-0 w-full z-10 pin-t ">
-    <div className="flex  justify-between flex-wrap p-6 items-center">
-      <div class="flex  flex-shrink-0 text-black mr-6">
-        <span class="font-semibold text-3xl tracking-tight">
-          <h1 style={{ margin: 0 }}>
-            <Link
-              to="/"
-              style={{
-                color: `black`,
-                textDecoration: `none`,
-              }}
-            >
-              {siteTitle}
-            </Link>
-          </h1>
-        </span>
+    <div className="flex container  justify-between flex-wrap py-0 items-center">
+      <div class="flex text-black">
+        <h1 style={{ margin: 0 }}>
+          <Link
+            to="/"
+            style={{
+              color: `black`,
+              textDecoration: `none`,
+            }}
+          >
+            <Logo />
+          </Link>
+        </h1>
       </div>
       <div class="block lg:hidden">
         <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
