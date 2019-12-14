@@ -8,13 +8,13 @@ export default class Features extends Component {
   render() {
     return (
       <section id="features" className="mt-20">
-        <div className="text-center mb-10 section-header w-auto inline-block">
-          <h1 className=" uppercase">fall in love with our features</h1>
+        <div className="section-header">
+          <h1>
+            fall in love with our <span> features </span>
+          </h1>
           <p>
-            Looking for CCtv, Optical fiber Networks, Wireless products and
-            solutions, video conferencing, tower maintenance, intercom,
-            biometrix, hotspot, computer and accessories, AMC, routers. Look no
-            further! We cover all.
+            We envision a world where broadband connectivity is readily
+            available in rural areas and transforms lives.
           </p>
         </div>
         <div className="flex mb-4">

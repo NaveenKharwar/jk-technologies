@@ -59,4 +59,29 @@ p {
 .btn svg {
   @apply ml-4;
 }
+
+.section-header {
+  @apply text-center mb-10  w-auto;
+}
+
+.section-header h1 {
+  @apply uppercase;
+}
+
+.section-header h1 span {
+  @apply text-primaryColor;
+}
+
+#features .featured-card {
+  @apply mr-5 px-10 py-12 rounded-lg;
+}
+
+#services .services-card {
+  @apply border-solid border-4 border-gray-300  mr-5 px-10 py-12 rounded-lg;
+}
+
+#services .services-card p {
+  /* @apply text-white; */
+}
+
 @tailwind utilities;
