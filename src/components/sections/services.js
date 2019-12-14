@@ -1,8 +1,4 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
-import Image from "../image"
-
-import { FaAngleDown } from "react-icons/fa"
 
 export default class Services extends Component {
   render() {

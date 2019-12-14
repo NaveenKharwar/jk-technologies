@@ -7,7 +7,7 @@ import { FaPhone } from "react-icons/fa"
 const Header = ({ siteTitle, menuLinks }) => (
   <nav className="bg-white p-2 mt-0 w-full z-10 pin-t ">
     <div className="flex container  justify-between flex-wrap py-0 items-center">
-      <div class="flex  flex-shrink-0 text-black">
+      <div className="flex  flex-shrink-0 text-black">
         <h1 style={{ margin: 0 }}>
           <Link
             to="/"
@@ -20,10 +20,10 @@ const Header = ({ siteTitle, menuLinks }) => (
           </Link>
         </h1>
       </div>
-      <div class="block lg:hidden">
-        <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+      <div className="block lg:hidden">
+        <button className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
           <svg
-            class="fill-current h-3 w-3"
+            className="fill-current h-3 w-3"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -32,8 +32,8 @@ const Header = ({ siteTitle, menuLinks }) => (
           </svg>
         </button>
       </div>
-      <div class="w-full block:lg lg:flex lg:items-center lg:w-auto hidden">
-        <div class="text-sm lg:flex-grow">
+      <div className="w-full block:lg lg:flex lg:items-center lg:w-auto hidden">
+        <div className="text-sm lg:flex-grow">
           {menuLinks.map(link => (
             <Link
               key={link.name}

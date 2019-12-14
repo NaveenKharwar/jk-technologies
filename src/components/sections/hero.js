@@ -30,7 +30,7 @@ export default class Hero extends Component {
             <p>Get one-to-one consultation in less than 24h.</p>
           </div>
           <div className="w-1/2 flex justify-center">
-            <div style={{ width: `500px` }}>
+            <div style={{ width: `800px` }}>
               <Image />
             </div>
           </div>
