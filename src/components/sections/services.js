@@ -53,10 +53,9 @@ export default class Services extends Component {
           <ServicesCard
             data={{
               imgUrl: "static/aef273a09b15b35167b2b114cc801478/7e783/phone.png",
-              title: "Intercom & Telephony",
-              content:
-                "We have tie-up with TATA as well as BSNL to provide there Telephone plans to the users through our FTTH network",
-              linkUrl: "Intercom & Telephony",
+              title: "Intercom",
+              content: "IPPhone IPBX IPBX",
+              linkUrl: "Intercom",
             }}
           />
           <ServicesCard

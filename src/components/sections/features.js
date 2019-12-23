@@ -25,7 +25,7 @@ export default class Features extends Component {
               imgUrl: forever,
               title: "Unlimited Data",
               content:
-                "We bring unbeatable broadband plans at your doorstep with upto 100 Mbps speed with unlimited download as well as upload data",
+                "We bring unbeatable broadband plans at your doorstep with upto 100 Gbps speed with unlimited download as well as upload data",
             }}
           />
           <FeaturesCard
