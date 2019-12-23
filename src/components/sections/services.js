@@ -1,5 +1,10 @@
 import React, { Component } from "react"
 import unlimited from "../../images/smart-house.png"
+import router from "../../images/router.png"
+import cctv from "../../images/cctv.png"
+import phone from "../../images/phone.png"
+import television from "../../images/television.png"
+import laptop from "../../images/laptop.png"
 
 import ServicesCard from "../sections/ServicesCard"
 import { Link } from "gatsby"
@@ -31,8 +36,7 @@ export default class Services extends Component {
           />
           <ServicesCard
             data={{
-              imgUrl:
-                "static/041f7c76d2ea1a62918b16c47bd3c525/7e783/router.png",
+              imgUrl: router,
               title: "High Speed Fiber Internet",
               content:
                 "Lighting High Speed Internet is being experienced by the users, Tripleplay provides upto100 Mbps speed in a very low price",
@@ -41,7 +45,7 @@ export default class Services extends Component {
           />
           <ServicesCard
             data={{
-              imgUrl: "static/4ff67a311791b9b3f0faf0c13bff51d9/7e783/cctv.png",
+              imgUrl: cctv,
               title: "CCTV",
               content:
                 "CCTV Camera Pros featured products based on price, quality and customer satisfaction.",
@@ -52,7 +56,7 @@ export default class Services extends Component {
         <div className="flex mb-5">
           <ServicesCard
             data={{
-              imgUrl: "static/aef273a09b15b35167b2b114cc801478/7e783/phone.png",
+              imgUrl: phone,
               title: "Intercom",
               content: "IPPhone IPBX IPBX",
               linkUrl: "Intercom",
@@ -60,8 +64,7 @@ export default class Services extends Component {
           />
           <ServicesCard
             data={{
-              imgUrl:
-                "static/0685905b0045cf6232a99fddbcd04324/7e783/television.png",
+              imgUrl: television,
               title: "Digital HD Cable TV (CTV)",
               content:
                 "We gives more than 300 Digital and HD channels not as much as cost of DTH and have tie-up with numerous MSO",
@@ -70,8 +73,7 @@ export default class Services extends Component {
           />
           <ServicesCard
             data={{
-              imgUrl:
-                "static/004ae1ac2f0eac2dcf9ec664e3299c95/7e783/laptop.png",
+              imgUrl: television,
               title: "Enterprise",
               content:
                 "Effective network is as critical as consistent availability for organizations, and this is the where shared web lines vacillate",
