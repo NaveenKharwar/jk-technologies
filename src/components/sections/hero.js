@@ -11,7 +11,7 @@ export default class Hero extends Component {
         <div className="flex items-center">
           <div className="w-1/2">
             <p className="text-gray-700 uppercase font-semibold">
-              Best Internet Service in Sikkim
+              Best Internet Service Provider in Sikkim
             </p>
             <h1 className="leading-snug font-bold">
               Meet faster, <br />

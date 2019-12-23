@@ -84,4 +84,8 @@ p {
   /* @apply text-white; */
 }
 
+footer .social-icon ul li {
+  @apply mr-5;
+}
+
 @tailwind utilities;

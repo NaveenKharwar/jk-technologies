@@ -9,6 +9,7 @@ import SEO from "../components/seo"
 import Hero from "../components/sections/hero"
 import Features from "../components/sections/features"
 import Services from "../components/sections/services"
+import CallToAction from "../components/sections/callToAction"
 
 const IndexPage = () => (
   <Layout>
@@ -16,10 +17,7 @@ const IndexPage = () => (
     <Hero />
     <Features />
     <Services />
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    {/* <CallToAction /> */}
   </Layout>
 )
 

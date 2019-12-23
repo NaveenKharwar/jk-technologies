@@ -6,6 +6,8 @@ import phone from "../../images/phone.png"
 import television from "../../images/television.png"
 import laptop from "../../images/laptop.png"
 
+import { FaAngleRight } from "react-icons/fa"
+
 import ServicesCard from "../sections/ServicesCard"
 import { Link } from "gatsby"
 
@@ -81,7 +83,10 @@ export default class Services extends Component {
             }}
           />
         </div>
-        <Link to="/services">Check Our All Services</Link>
+        <Link className="btn" to="/services">
+          <span>Check Our All Services</span>
+          <FaAngleRight />
+        </Link>
       </section>
     )
   }
