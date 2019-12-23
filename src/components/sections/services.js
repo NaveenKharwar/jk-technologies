@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import unlimited from "../../images/smart-house.png"
 
 import ServicesCard from "../sections/ServicesCard"
 import { Link } from "gatsby"
@@ -21,8 +22,7 @@ export default class Services extends Component {
         <div className="flex mb-4">
           <ServicesCard
             data={{
-              imgUrl:
-                "static/2a82a699bec619694c28341b27a343f5/7e783/smart-house.png",
+              imgUrl: unlimited,
               title: "Unlimited Data",
               content:
                 "More than 10 million homes worldwide already have fiber-to-the-home broadband connections because the technology",
