@@ -6,7 +6,7 @@ import Logo from "./logo"
 import { FaEnvelopeOpen } from "react-icons/fa"
 const Header = ({ siteTitle, menuLinks }) => (
   <nav className="bg-white p-2 mt-0 w-full z-10 pin-t ">
-    <div className="flex container justify-between flex-wrap py-0 items-center">
+    <div className="navigation_container">
       <div className="flex  flex-shrink-0 text-black">
         <h1 style={{ margin: 0 }}>
           <Link

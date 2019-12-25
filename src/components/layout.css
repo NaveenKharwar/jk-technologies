@@ -60,6 +60,10 @@ p {
   @apply ml-4;
 }
 
+nav .navigation_container {
+  @apply flex justify-between flex-wrap py-0 items-center;
+}
+
 .section-header {
   @apply text-center mb-10  w-auto;
 }
@@ -109,6 +113,10 @@ header,
   @apply mx-5;
 }
 
+footer {
+  @apply mt-20 mb-10 py-32  px-10  bg-black rounded-lg shadow-2xl;
+}
+
 footer .widget-area {
   @apply w-full;
 }
@@ -122,6 +130,9 @@ footer .widget-area .widget-title {
 }
 
 @screen lg {
+  nav .navigation_container {
+    @apply mx-40;
+  }
   header .header_content {
     @apply w-1/2;
   }
@@ -133,6 +144,9 @@ footer .widget-area .widget-title {
   }
   .services .services-card__container {
     @apply w-1/3;
+  }
+  footer {
+    @apply px-20;
   }
   footer .widget-area {
     @apply w-1/4;
