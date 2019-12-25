@@ -75,7 +75,7 @@ export default class Services extends Component {
           />
           <ServicesCard
             data={{
-              imgUrl: television,
+              imgUrl: laptop,
               title: "Enterprise",
               content:
                 "Effective network is as critical as consistent availability for organizations, and this is the where shared web lines vacillate",
