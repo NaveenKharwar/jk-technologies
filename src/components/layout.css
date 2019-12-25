@@ -88,4 +88,55 @@ footer .social-icon ul li {
   @apply mr-5;
 }
 
+header .header_content {
+  @apply w-full;
+}
+header .header_image {
+  @apply w-full;
+}
+
+.features .featured-card__container {
+  @apply w-full;
+}
+
+.services .services-card__container {
+  @apply w-full;
+}
+footer,
+header,
+.services,
+.features {
+  @apply mx-5;
+}
+
+footer .widget-area {
+  @apply w-full;
+}
+
+footer .widget-area ul li {
+  @apply pb-4;
+}
+
+footer .widget-area .widget-title {
+  @apply text-white mb-10;
+}
+
+@screen lg {
+  header .header_content {
+    @apply w-1/2;
+  }
+  header .header_image {
+    @apply w-1/2;
+  }
+  .features .featured-card__container {
+    @apply w-1/3;
+  }
+  .services .services-card__container {
+    @apply w-1/3;
+  }
+  footer .widget-area {
+    @apply w-1/4;
+  }
+}
+
 @tailwind utilities;

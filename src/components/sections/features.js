@@ -7,7 +7,7 @@ import thumbsup from "../../images/thumbs-up.png"
 export default class Features extends Component {
   render() {
     return (
-      <section id="features" className="mt-20">
+      <section id="features" className="mt-20 features">
         <div className="section-header">
           <h1>
             fall in love with our <span> features </span>
@@ -18,7 +18,7 @@ export default class Features extends Component {
           </p>
         </div>
 
-        <div className="flex mb-4">
+        <div className="flex flex-wrap mb-4">
           <FeaturesCard
             data={{
               imageid: "image1.childImageSharp.fluid",

@@ -8,8 +8,8 @@ export default class Hero extends Component {
   render() {
     return (
       <header>
-        <div className="flex items-center">
-          <div className="w-1/2">
+        <div className="flex flex-wrap items-center">
+          <div className="header_content">
             <p className="text-gray-700 uppercase font-semibold">
               Best Internet Service Provider in Sikkim
             </p>
@@ -29,7 +29,7 @@ export default class Hero extends Component {
             </Link>
             <p>Get one-to-one consultation in less than 24h.</p>
           </div>
-          <div className="w-1/2 flex justify-center">
+          <div className="header_image flex justify-center">
             <div style={{ width: `800px` }}>
               <Image />
             </div>

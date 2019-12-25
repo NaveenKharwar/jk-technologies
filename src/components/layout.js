@@ -34,9 +34,9 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer className="mt-20 mb-10 py-32 px-10 bg-black rounded-lg shadow-2xl">
           <div className="container">
-            <div class="flex mb-4">
-              <div class="w-1/4">
-                <h5 className="text-white">Company</h5>
+            <div class="flex flex-wrap mb-4">
+              <div class="widget-area">
+                <h5 className="widget-title">Company</h5>
                 <ul>
                   <li>
                     <Link to="/">home</Link>
@@ -49,8 +49,8 @@ const Layout = ({ children }) => {
                   </li>
                 </ul>
               </div>
-              <div class="w-1/4">
-                <h5 className="text-white">Services</h5>
+              <div class="widget-area">
+                <h5 className="widget-title">Services</h5>
                 <ul>
                   <li>
                     <Link to="/">Unlimited Data</Link>
@@ -72,8 +72,8 @@ const Layout = ({ children }) => {
                   </li>
                 </ul>
               </div>
-              <div class="w-1/4">
-                <h5 className="text-white">Get in touch</h5>
+              <div class="widget-area">
+                <h5 className="widget-title">Get in touch</h5>
                 <ul>
                   <li>
                     <Link to="/">Contact Form</Link>
@@ -83,7 +83,7 @@ const Layout = ({ children }) => {
                   </li>
                 </ul>
               </div>
-              <div class="w-1/4">
+              <div class="widget-area">
                 <div className="social-icon">
                   <ul className="flex">
                     <li>

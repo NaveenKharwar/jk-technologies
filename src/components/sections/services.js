@@ -14,7 +14,7 @@ import { Link } from "gatsby"
 export default class Services extends Component {
   render() {
     return (
-      <section id="services" className="mt-20">
+      <section id="services" className="mt-20 services">
         <div className="section-header">
           <h1>
             Our <span> Services </span>
@@ -26,7 +26,7 @@ export default class Services extends Component {
             further! We cover all.
           </p>
         </div>
-        <div className="flex mb-4">
+        <div className="flex flex-wrap mb-4">
           <ServicesCard
             data={{
               imgUrl: unlimited,
@@ -55,7 +55,7 @@ export default class Services extends Component {
             }}
           />
         </div>
-        <div className="flex mb-5">
+        <div className="flex flex-wrap mb-5">
           <ServicesCard
             data={{
               imgUrl: phone,
