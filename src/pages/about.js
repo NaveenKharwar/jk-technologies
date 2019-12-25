@@ -22,12 +22,12 @@ const About = () => (
     </div>
     <div>
       <div class="flex flex-wrap  items-center mb-4">
-        <div class="w-1/3 flex">
+        <div class="w-1/2 flex">
           <div className="flex-1  items-center">
             <Banner />
           </div>
         </div>
-        <div class="w-2/3 flex px-10">
+        <div class="w-1/2 flex px-10">
           <div className="flex-1  items-center">
             <p>
               <span>Hey There,</span>
