@@ -33,8 +33,8 @@ const Layout = ({ children }) => {
       <main>{children}</main>
       <footer>
         <div className="container">
-          <div class="flex flex-wrap mb-4">
-            <div class="widget-area">
+          <div className="flex flex-wrap mb-4">
+            <div className="widget-area">
               <h5 className="widget-title">Company</h5>
               <ul>
                 <li>
@@ -48,7 +48,7 @@ const Layout = ({ children }) => {
                 </li>
               </ul>
             </div>
-            <div class="widget-area">
+            <div className="widget-area">
               <h5 className="widget-title">Services</h5>
               <ul>
                 <li>
@@ -71,7 +71,7 @@ const Layout = ({ children }) => {
                 </li>
               </ul>
             </div>
-            <div class="widget-area">
+            <div className="widget-area">
               <h5 className="widget-title">Get in touch</h5>
               <ul>
                 <li>
@@ -82,7 +82,7 @@ const Layout = ({ children }) => {
                 </li>
               </ul>
             </div>
-            <div class="widget-area">
+            <div className="widget-area">
               <div className="social-icon">
                 <ul className="flex">
                   <li>

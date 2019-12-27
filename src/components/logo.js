@@ -7,7 +7,7 @@ const Logo = () => {
     query {
       placeholderImage: file(relativePath: { eq: "jk-tech.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 400) {
+          fluid(maxWidth: 200) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -16,7 +16,7 @@ const Logo = () => {
   `)
 
   return (
-    <div style={{ width: "180px" }}>
+    <div style={{ width: "150px" }}>
       <Img fluid={data.placeholderImage.childImageSharp.fluid} />
     </div>
   )

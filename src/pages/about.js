@@ -1,6 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-import TransparentLogo from "../components/trspLogo"
 import Banner from "../components/banner"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -34,18 +32,18 @@ const About = () => (
               We are JK Technologies
             </p>
             <p>
-              J K Technologiesis an Indian Company founded in 2019 as a sales,
-              service and solution provider in Information & Technologies. J K
-              Technologies has a strong distribution network covering all over
-              Sikkim. Company's head office is in Tikzuk, West Sikkim.     J K
-              Technologiesis deals in CCtv, Optical fiber Networks, Wireless
-              products and solutions, video conferencing, tower maintenance,
-              intercom, biometrix, hotspot, computer and accessories, AMC,
-              routers. J K Technologies is founded by Mr. Jigmee Bhutia who has
-              a rich experience of 5+ years in Networking products. The company
-              has the team of 10+ employees on Pan India Basis.     The Company
-              believes in policy to deliver optimum cost - high B/W solutions to
-              our clients. J K Technologies with the team of in-house technical
+              An Indian Company founded in 2019 as a sales, service and solution
+              provider in Information & Technologies. J K Technologies has a
+              strong distribution network covering all over Sikkim. Company's
+              head office is in Tikzuk, West Sikkim.     J K Technologiesis
+              deals in CCtv, Optical fiber Networks, Wireless products and
+              solutions, video conferencing, tower maintenance, intercom,
+              biometrix, hotspot, computer and accessories, AMC, routers. J K
+              Technologies is founded by Mr. Jigmee Bhutia who has a rich
+              experience of 5+ years in Networking products. The company has the
+              team of 10+ employees on Pan India Basis.     The Company believes
+              in policy to deliver optimum cost - high B/W solutions to our
+              clients. J K Technologies with the team of in-house technical
               experts delivers real time data through RF output for all the wire
               & wireless security surveillance providers in Point to Point &
               Point to Multi Point application. These technical experts also

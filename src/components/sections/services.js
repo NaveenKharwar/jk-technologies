@@ -1,4 +1,6 @@
 import React, { Component } from "react"
+import { Link } from "gatsby"
+
 import unlimited from "../../images/smart-house.png"
 import router from "../../images/router.png"
 import cctv from "../../images/cctv.png"
@@ -9,7 +11,6 @@ import laptop from "../../images/laptop.png"
 import { FaAngleRight } from "react-icons/fa"
 
 import ServicesCard from "../sections/ServicesCard"
-import { Link } from "gatsby"
 
 export default class Services extends Component {
   render() {
