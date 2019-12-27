@@ -65,7 +65,7 @@ nav .navigation_container {
 }
 
 .nav_cta-btn {
-  @apply mb-2;
+  @apply mb-2 flex justify-center;
 }
 
 .section-header {
