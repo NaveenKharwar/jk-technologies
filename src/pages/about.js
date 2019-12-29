@@ -7,26 +7,26 @@ const About = () => (
   <Layout>
     <SEO title="About Jk Technologies" />
 
-    <div className="about_cta bg-primaryColor">
+    <div className="about_cta text-center">
       <div className="container">
-        <div className="py-40">
-          <h1>
+        <div className="py-20 px-10">
+          <h2>
             We JK Technologies, believe that affordable access to internet
             should be as readily available as are public facilities such as
             roads, electricity, and water.
-          </h1>
+          </h2>
         </div>
       </div>
     </div>
     <div>
-      <div class="flex flex-wrap  items-center mb-4">
-        <div class="w-1/2 flex">
-          <div className="flex-1  items-center">
+      <div class="about-grid">
+        <div className="about-image">
+          <div className="flex-1 items-center">
             <Banner />
           </div>
         </div>
-        <div class="w-1/2 flex px-10">
-          <div className="flex-1  items-center">
+        <div className="about-content">
+          <div className="flex-1 items-center">
             <p>
               <span>Hey There,</span>
               We are JK Technologies
@@ -55,7 +55,6 @@ const About = () => (
           </div>
         </div>
       </div>
-      {/* <TransparentLogo /> */}
     </div>
   </Layout>
 )
