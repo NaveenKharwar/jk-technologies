@@ -55,7 +55,7 @@ function Header({ siteTitle, menuLinks }) {
             ))}
           </div>
           <div>
-            <Link className="btn nav_cta-btn" to="/">
+            <Link className="btn nav_cta-btn" to="/contact">
               <span>Contact</span>
               <FaEnvelopeOpen />
             </Link>
