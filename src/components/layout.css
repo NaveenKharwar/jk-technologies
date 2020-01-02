@@ -146,6 +146,50 @@ footer .widget-area .widget-title {
   @apply text-white mb-10;
 }
 
+.contact__page {
+  @apply px-5;
+}
+
+.contact__page .contact__phone,
+.contact__page .contact__email,
+.contact__page .contact__address {
+  @apply w-full flex justify-around flex-col justify-center text-center items-center p-5;
+}
+
+.google_map-container,
+.contact-from {
+  @apply w-full;
+}
+
+.contact-from {
+  @apply flex flex-col justify-center items-center;
+}
+
+.contact-from .gatsby__form {
+  @apply border-b border-b-2 border-primaryColor py-2  mx-5;
+}
+
+.contact-from form div {
+  @apply mb-5;
+}
+
+.contact-details ul li div {
+  @apply flex;
+}
+
+.contact-details ul li {
+  @apply mb-1;
+}
+
+.contact-details ul li svg {
+  @apply mr-2;
+}
+
+.google_map-container :first-child {
+  position: relative;
+  height: 700px;
+}
+
 @screen lg {
   nav .navigation_container {
     @apply mx-40;
@@ -174,6 +218,21 @@ footer .widget-area .widget-title {
 
   .about-grid .about-content {
     @apply w-1/2 py-0;
+  }
+
+  .contact__page {
+    @apply px-0;
+  }
+
+  .contact__page .contact__phone,
+  .contact__page .contact__email,
+  .contact__page .contact__address {
+    @apply w-1/3;
+  }
+
+  .google_map-container,
+  .contact-from {
+    @apply w-1/2;
   }
   footer {
     @apply px-20;

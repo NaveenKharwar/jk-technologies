@@ -6,7 +6,6 @@ import SEO from "../components/seo"
 const About = () => (
   <Layout>
     <SEO title="About Jk Technologies" />
-
     <div className="about_cta text-center">
       <div className="container">
         <div className="py-20 px-10">
