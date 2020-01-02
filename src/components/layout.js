@@ -33,6 +33,12 @@ const Layout = ({ children }) => {
       <main>{children}</main>
       <footer>
         <div className="container">
+          <div className="footer__cta text-center mb-10">
+            <h1 className="text-white">Check ISP Price and Availability</h1>
+            <Link className="btn" to="/isp-services">
+              Click Here
+            </Link>
+          </div>
           <div className="flex flex-wrap mb-4">
             <div className="widget-area">
               <h5 className="widget-title">Company</h5>
