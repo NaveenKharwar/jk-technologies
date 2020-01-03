@@ -190,6 +190,16 @@ footer .widget-area .widget-title {
   height: 700px;
 }
 
+/* Price  */
+
+#price .price-card__container {
+  @apply w-full;
+}
+
+#price .price-card__container .price-card {
+  /* @apply px-10; */
+}
+
 @screen lg {
   nav .navigation_container {
     @apply mx-40;
@@ -233,6 +243,9 @@ footer .widget-area .widget-title {
   .google_map-container,
   .contact-from {
     @apply w-1/2;
+  }
+  #price .price-card__container {
+    @apply w-1/4;
   }
   footer {
     @apply px-20;
