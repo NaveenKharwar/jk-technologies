@@ -42,6 +42,15 @@ const Layout = ({ children }) => {
           <div className="flex flex-wrap mb-4">
             <div className="widget-area">
               <h5 className="widget-title">Company</h5>
+              <p className="text-white">
+                JK Technologies is Powered by{" "}
+                <a
+                  href="https://estointernet.in/"
+                  className="text-primaryColor"
+                >
+                  Esto Broadband Pvt Ltd.
+                </a>
+              </p>
               <ul>
                 <li>
                   <Link to="/">home</Link>
