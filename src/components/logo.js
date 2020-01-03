@@ -16,7 +16,7 @@ const Logo = () => {
   `)
 
   return (
-    <div style={{ width: "150px" }}>
+    <div style={{ width: "200px" }}>
       <Img fluid={data.placeholderImage.childImageSharp.fluid} />
     </div>
   )
