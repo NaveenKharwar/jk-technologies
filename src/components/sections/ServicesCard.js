@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 
 const ServicesCard = props => {
   return (
-    <div className="services-card__container flex mb-5">
-      <div className="services-card flex-1">
+    <div className="services-card__container flex mb-5 ">
+      <div className="services-card flex-1  shadow hover:shadow-2xl">
         <div style={{ width: `100px` }}>
           <img
             className="mb-5"
