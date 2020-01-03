@@ -200,6 +200,14 @@ footer .widget-area .widget-title {
   /* @apply px-10; */
 }
 
+#terms-conditions ul li {
+  @apply flex items-center my-5;
+}
+
+#terms-conditions ul li svg {
+  @apply mr-2 text-yellow-600;
+}
+
 @screen lg {
   nav .navigation_container {
     @apply mx-40;
