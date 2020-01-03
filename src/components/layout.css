@@ -148,6 +148,7 @@ footer .widget-area .widget-title {
 
 .contact__page {
   @apply px-5;
+  height: 100%;
 }
 
 .contact__page .contact__phone,
@@ -190,7 +191,7 @@ footer .widget-area .widget-title {
 }
 .google_map-container :first-child {
   position: relative;
-  height: 700px;
+  height: 800px;
 }
 
 /* Price  */

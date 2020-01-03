@@ -38,15 +38,29 @@ export default class ContactForm extends Component {
               />
             </div>
             <div>
+              <label> Your Phone Number</label>
+              <input
+                className="bg-white focus:outline-none border border-gray-300 rounded-none py-2 px-4 w-full appearance-none leading-normal"
+                type="number"
+                name="number"
+                placeholder="number"
+                id="number"
+                required
+              />
+            </div>
+            <div>
               <label> Mesaage</label>
               <textarea
                 className="bg-white focus:outline-none border border-gray-300 rounded-none py-2 px-4 w-full appearance-none leading-normal h-64"
                 type="text"
-                name="subject"
-                placeholder="Subject"
+                name="message"
+                placeholder="Message"
                 required
               />
             </div>
+          </div>
+          <div className="text-center">
+            <button className="btn">Submit</button>
           </div>
         </form>
       </>

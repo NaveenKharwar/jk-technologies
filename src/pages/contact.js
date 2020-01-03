@@ -16,9 +16,6 @@ const Contact = () => (
     <div className="container">
       <section className="contact__page">
         <div className="flex flex-wrap mb-4">
-          <div className="google_map-container">
-            <GMap />
-          </div>
           <div className="contact-from">
             <h4 className="text-center">Contact Us</h4>
             <p className="text-center">
@@ -28,6 +25,9 @@ const Contact = () => (
             <div>
               <ContactForm />
             </div>
+          </div>
+          <div className="google_map-container hidden md:block">
+            <GMap />
           </div>
         </div>
         <div className="contact-details">
