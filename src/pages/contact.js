@@ -36,12 +36,14 @@ const Contact = () => (
             <div className="contact__phone ">
               <FaPhone size={35} />
               <ul className="mt-5">
+                <h6>For Support:-</h6>
                 <li>
                   <div>
                     <FaMobileAlt />
                     +91-7250104637
                   </div>
                 </li>
+                <h6>For Sales:-</h6>
                 <li>
                   <div>
                     <FaMobileAlt />
@@ -58,7 +60,7 @@ const Contact = () => (
             </div>
             <div className="contact__email ">
               <FaEnvelopeOpen size={35} className="mb-5" />
-              admin@23104
+              admin@jktech.network
             </div>
             <div className="contact__address ">
               <FaLocationArrow size={35} className="mb-5" />

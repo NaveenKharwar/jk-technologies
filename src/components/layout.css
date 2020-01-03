@@ -185,6 +185,9 @@ footer .widget-area .widget-title {
   @apply mr-2;
 }
 
+.contact-details ul h6 {
+  @apply m-0 mt-2 text-left;
+}
 .google_map-container :first-child {
   position: relative;
   height: 700px;
