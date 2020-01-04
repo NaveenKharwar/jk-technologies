@@ -85,7 +85,7 @@ nav .navigation_container {
 }
 
 #services .services-card {
-  @apply border-solid border-4 border-gray-300 bg-gray-300  mr-5 px-10 py-12 rounded-lg;
+  @apply border-solid border-4 border-gray-300 bg-cardColor  mr-5 px-10 py-12 rounded-lg;
 }
 
 #services .services-card p {
@@ -200,6 +200,14 @@ footer .widget-area .widget-title {
   @apply w-full;
 }
 
+#price .price-card {
+  @apply bg-cardColor;
+  transition: 0.3s;
+}
+
+#price .price-card .price-title {
+  background-color: cadetblue;
+}
 #price .price-card__container .price-card {
   /* @apply px-10; */
 }

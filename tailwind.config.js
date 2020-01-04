@@ -15,6 +15,7 @@ module.exports = {
       black: "#000",
       white: "#fff",
       primaryColor: "#da3654",
+      cardColor: "#79bbf6",
       secondaryColor: "#000",
 
       gray: {

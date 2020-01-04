@@ -3,9 +3,9 @@ import React from "react"
 const PriceCard = props => {
   return (
     <div className="price-card__container ">
-      <div className="price-card cursor-pointer rounded shadow-2xl hover:shadow hover:border-r  hover:border-l hover:border-gray-400 mx-5 mt-10">
+      <div className="price-card cursor-pointer rounded  shadow-2xl hover:shadow border-8 hover:border-r hover:border-l hover:border-yellow-400 mx-5 mt-10 ">
         <div className="price-header">
-          <div className="price-title uppercase bg-primaryColor text-white text-center py-5">
+          <div className="price-title uppercase text-white font-bold text-center py-5">
             <span className="text-lg">{props.data.title}</span>
           </div>
         </div>
@@ -18,7 +18,7 @@ const PriceCard = props => {
               title={props.data.title}
             />
           </div>
-          <ul className="text-center">
+          <ul className="text-center text-white">
             <li className="border-t py-4">{props.data.bandWidth}</li>
             <li className="border-t py-4">{props.data.usage}</li>
             <li className="border-t py-4">{props.data.validity}</li>
