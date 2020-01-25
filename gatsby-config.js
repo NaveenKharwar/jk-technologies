@@ -16,10 +16,10 @@ module.exports = {
         name: "Services",
         link: "/services",
       },
-      {
-        name: "Price",
-        link: "/isp-services",
-      },
+      // {
+      //   name: "Price",
+      //   link: "/isp-services",
+      // },
     ],
   },
   plugins: [

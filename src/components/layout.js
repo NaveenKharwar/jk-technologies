@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
         <div className="container">
           <div className="footer__cta text-center mb-10">
             <h1 className="text-white">Check ISP Price and Availability</h1>
-            <Link className="btn" to="/isp-services">
+            <Link className="btn" to="/">
               Click Here
             </Link>
           </div>
